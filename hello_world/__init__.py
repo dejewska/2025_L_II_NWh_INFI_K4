@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask # noqa
 app = Flask(__name__)
 
-import hello_world.views
+import hello_world.views # noqa
